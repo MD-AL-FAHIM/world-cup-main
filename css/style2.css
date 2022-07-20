@@ -1,0 +1,245 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&family=Poppins:wght@200;700;800;900&display=swap');
+
+@import url('./all.min.css');
+@import url('./regular.min.css');
+@import url('./solid.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+h1 , h2 , h3 , h4 , h5 , h6 , p , a{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    color: #FFFFFF;
+}
+a, a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a, span, input{
+    display: inline-block;
+}
+
+ul, ol, dl {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* ---------------------------------------- 
+           banner part start 
+----------------------------------------- */
+
+.banner-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center; 
+    margin: 40px 0;
+}
+.banner-title {
+    width: 90%;
+}
+
+button {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #DD0000;
+    border: 0 solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.transfer{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: 0 solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+button p a, i {
+    font-weight: 550;
+    color: #ffffff;
+}
+
+/* ---------------------------------------- 
+           banner part end 
+----------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------- 
+          main part start
+----------------------------------------- */
+
+
+.matches-part{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 15px;
+    margin: 100px 0;
+}
+.matches-part p , a , h4 {
+    color: #161616;
+}
+nav {
+    display: flex;
+    justify-items: end;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616;
+    align-content: center;
+    border-radius: 10px;
+    height: 260px;
+}
+
+.fa-regular {
+    background-color: #DD0000;
+    color: #161616;
+}
+.navigation {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 14px;
+    padding: 30px 0;
+}
+.upcoming-match, .all-groups , .blog{
+    width: 100%;
+    text-align: center;
+}
+.upcoming-match p, .all-groups p, .blog p {
+    padding: 12px 9px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 550;
+}
+.upcoming-match p, .all-groups p {
+    color: #161616;
+    background-color: #FFFFFF;
+}
+.blog p{
+    background-color: #DD0000;
+}
+.blog p a{
+    color: #ffffff;
+}
+
+
+
+.match-boxes {
+    display: grid;
+    grid-template-columns: repeat(3 , 3fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: end;
+}
+
+.box-card {
+    margin: 6px;
+    border: .5px solid lightslategray;
+    width: 80%;
+}
+
+.box-card .paler-pic{
+    width: 100%;
+}
+.box-card .paler-pic img{
+    width: 100%;
+}
+.flags-pic {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 31px 17px 0;
+}
+.flags-pic img{
+    width: 75px;
+}
+.match-start-time {
+    padding: 24px;
+    text-align: center;
+}
+svg{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+
+
+/* ---------------------------------------- 
+           main part end 
+----------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* ---------------------------------------- 
+           footer part start 
+----------------------------------------- */
+
+footer{
+    background-color: #161616;
+}
+.footer-contents {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 11px;
+    padding: 80px 0;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 45px;
+    justify-items: center;
+}
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-column-gap: 30px;
+}
+.footer-contents h3{
+    color: #FFFFFF;
+}
+.footer-contents svg {
+    background-color: #FFFFFF;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+/* ---------------------------------------- 
+           footer part end 
+----------------------------------------- */
+
+
