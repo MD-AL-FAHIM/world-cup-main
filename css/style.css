@@ -41,6 +41,22 @@ ul, ol, dl {
 ----------------------------------------- */
 
 .banner-content {
+    background-image: url('../images/_123978046_drawgraphic.jpg');
+    background: rgb(0 0 0 / 93%);
+    background-blend-mode: hard-light;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate;
+    animation-direction:alternate-reverse ;
+    animation-duration: 30s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite ;
+    animation-play-state:running ;
+    animation-timing-function:case-in-out ;
+
+    padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #161616;
@@ -49,10 +65,40 @@ ul, ol, dl {
     align-items: center; 
     margin: 40px 0;
 }
+
+
+@keyframes animate {
+    0%{
+        background-image: url('../images/16488296618866.jpg');
+    }
+    20%{
+        background-image: url('../images/59924599_401.jpg');
+    }
+    40%{
+        background-image: url('../images/albayt_top-1100x640.jpg');
+    }
+    60%{
+        background-image: url('../images/loo0ptag_qatar-2022_625x300_05_June_20.webp');
+    }
+    80%{
+        background-image: url('../images/qatar2022.jpg');
+    }
+    100%{
+        background-image: url('../images/GettyImages-1292391546.avif');
+    }
+}
+
+
+
+
 .banner-title {
     width: 90%;
 }
-
+.banner-description{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 520;
+}
 button {
     display: grid;
     grid-template-columns: 1fr 0.4fr;
